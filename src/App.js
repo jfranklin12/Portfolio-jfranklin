@@ -1,10 +1,11 @@
 import "./App.css"
 import React from "react";
 // First we import Greeting from the components folder
-import Header from "./components/header";
-import Navbar from "./components/navbar";
-import AboutMe from "./components/aboutMe";
-import MyWork from "./components/myWork";
+import Header from "./components/header.js";
+import Navbar from "./components/navbar.js";
+import AboutMe from "./components/aboutMe.js";
+import MyWork from "./components/myWork.js";
+import Footer from "./components/footer.js";
 
 // Our App component returns the Greeting component
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <AboutMe />
       <MyWork />
+      <Footer />
     </div>
   );
 }

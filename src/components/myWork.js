@@ -7,7 +7,7 @@ function MyWork() {
 
   return (
     <div className="container">
-      <h1 class="display-3">My Work</h1>
+      <h1 className="display-3">My Work</h1>
       <MyWorkCarousel />
 
     </div>
