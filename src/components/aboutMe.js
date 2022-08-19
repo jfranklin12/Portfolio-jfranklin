@@ -4,7 +4,7 @@ import React from 'react';
 function AboutMe() {
     return (
       <div className='container'>
-      <h1>About Me</h1>
+      <h1 className="display-3">About Me</h1>
       <p class="lead">This is a lead paragraph. It stands out from regular paragraphs.</p>
       </div>
 

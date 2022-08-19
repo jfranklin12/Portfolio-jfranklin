@@ -1,4 +1,10 @@
-
+.header {
+    background: #fce3a4;
+    height: 200px;
+  }
+  #myName {
+    padding-top: auto;
+  }
 
 
 #footerPicture {
