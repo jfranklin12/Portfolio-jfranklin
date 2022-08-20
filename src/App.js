@@ -1,12 +1,12 @@
 import "./App.css"
 import React from "react";
 // First we import Greeting from the components folder
-import Header from "./components/header.js";
+import Header from "./components/pages/header";
 import MyNavbar from "./components/navbar.js";
-import AboutMe from "./components/aboutMe.js";
-import MyWork from "./components/myWork.js";
-import Resume from "./components/resume";
-import Footer from "./components/footer.js";
+import AboutMe from "./components/pages/aboutMe.js";
+import MyWork from "./components/pages/myWork.js";
+import Resume from "./components/pages/resume";
+import Footer from "./components/pages/footer.js";
 
 // Our App component returns the Greeting component
 function App() {

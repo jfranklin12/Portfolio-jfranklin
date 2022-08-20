@@ -1,6 +1,6 @@
-import '../App.css';
+import '../../App.css';
 import React from 'react';
-import MyWorkCarousel from './myWorkCarousel';
+import MyWorkCarousel from '../myWorkCarousel/myWorkCarousel';
 
 function MyWork() {
 

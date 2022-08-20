@@ -1,7 +1,7 @@
-import '../App.css';
+import '../../App.css';
 import React from 'react';
 import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
-import meFooter from '../images/meFooter.jpg';
+import meFooter from '../../images/meFooter.jpg';
 
 function Footer() {
   return (

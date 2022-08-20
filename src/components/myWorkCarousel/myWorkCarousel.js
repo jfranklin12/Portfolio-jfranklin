@@ -1,9 +1,9 @@
-import '../App.css';
+import '../../App.css';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import mistyLakeForest from '../images/mistyLakeForest.jpg';
-import riverInMountains from '../images/riverInMountains.jpg';
-import waterfallInCove from '../images/waterfallInCove.jpg';
+import mistyLakeForest from '../../images/mistyLakeForest.jpg';
+import riverInMountains from '../../images/riverInMountains.jpg';
+import waterfallInCove from '../../images/waterfallInCove.jpg';
 
 function MyWorkCarousel() {
     const [index, setIndex] = useState(0);
