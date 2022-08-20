@@ -7,7 +7,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import meFooter from '../../../images/meFooter.jpg'
 
 function MyNavbar({ currentPage, handlePageChange }) {
-
   
   return (
     // Need help making navbar links referencing activity 24
@@ -26,7 +25,7 @@ function MyNavbar({ currentPage, handlePageChange }) {
         />
         </a>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" id='navbarButton'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" id='navLinks'>About Me</Nav.Link>
