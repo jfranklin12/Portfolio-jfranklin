@@ -1,8 +1,8 @@
 import "./App.css"
 import React from "react";
 // First we import Greeting from the components folder
-import Header from "./components/pages/header";
-import MyNavbar from "./components/navbar.js";
+import Header from "./components/pages/header/header";
+import MyNavbar from "./components/pages/navbar/navbar.js";
 import AboutMe from "./components/pages/aboutMe.js";
 import MyWork from "./components/pages/myWork.js";
 import Resume from "./components/pages/resume";

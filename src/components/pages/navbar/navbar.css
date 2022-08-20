@@ -1,0 +1,16 @@
+.myNavbar {
+    background-color: #2D4B64;
+}
+#myNav {
+    margin-left: 3%;
+}
+#navLinks{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #A4ACB4;
+}
+#navLinks:hover{
+    color: white;
+}
+
+

@@ -1,11 +1,14 @@
-import '../App.css';
+import '../../../App.css';
+import '../navbar/navbar.css'
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import meFooter from '../images/meFooter.jpg'
+import meFooter from '../../../images/meFooter.jpg'
 
 function MyNavbar({ currentPage, handlePageChange }) {
+
+  
   return (
     // Need help making navbar links referencing activity 24
     <Navbar className="myNavbar" expand="md" sticky='top'>
@@ -23,7 +26,7 @@ function MyNavbar({ currentPage, handlePageChange }) {
         />
         </a>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" id='navLinks'>About Me</Nav.Link>

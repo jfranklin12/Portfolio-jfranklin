@@ -1,7 +1,8 @@
-import '../../App.css';
+import '../../../App.css';
+import './header.css';
 import React, { Component } from 'react';
-import NameAnimation from '../nameAnimation/nameAnimation';
-import background from '../../images/background.jpg';
+import NameAnimation from '../../nameAnimation/nameAnimation';
+import background from '../../../images/background.jpg';
 
 class Header extends Component {
 render() {
@@ -9,8 +10,7 @@ render() {
 	const myStyle={
 		backgroundImage: `url(${background})`,
         backgroundPosition: 'center',
-		backgroundRepeat: 'no-repeat',
-
+		backgroundRepeat: 'repeat',
 	};
 	return (
     <div style={myStyle} className="header">
