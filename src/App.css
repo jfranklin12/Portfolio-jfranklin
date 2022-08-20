@@ -1,11 +1,15 @@
 .header {
-    background: #fce3a4;
-    height: 200px;
-  }
-  #myName {
-    padding-top: auto;
-  }
+    height: 500px;
+}
 
+#myName {
+    font-family: 'Homemade Apple', cursive;
+    color: #26355E;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 450%;
+
+}
 
 #footerPicture {
     border-radius: 50%;

@@ -1,13 +1,23 @@
 import '../App.css';
 import React, { Component } from 'react';
 import NameAnimation from './nameAnimation';
+import background from '../images/background.jpg';
 
-function Header() {
-return (
-<div className="header">
-<h1 className="text-center" id="myName"><NameAnimation /></h1>
-</div>
-)
+class Header extends Component {
+render() {
+	const myStyle={
+		backgroundImage: `url(${background})`,
+        backgroundPosition: 'center',
+		backgroundRepeat: 'no-repeat',
+
+	};
+	return (
+    <div style={myStyle} className="header">
+		<p id="myName"><NameAnimation /></p>
+	</div>
+	);
 }
+}
+
 
 export default Header;

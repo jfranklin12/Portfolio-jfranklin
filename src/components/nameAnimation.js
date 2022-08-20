@@ -12,10 +12,10 @@ function NameAnimation() {
 
 const animation = keyframes`
 0% { opacity: 0 }
-100% { opacity: 1}
+100% { opacity: 1 }
 `
 
-const Title = styled.h1`
+const Title = styled.p`
 diplay: inline-block;
 
 
