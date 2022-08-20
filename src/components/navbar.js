@@ -1,33 +1,40 @@
 import '../App.css';
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import meFooter from '../images/meFooter.jpg'
 
-function Navbar() {
+function MyNavbar({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Julian Franklin</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  )
+    // Need help making navbar links referencing activity 24
+    <Navbar className="myNavbar" expand="md" sticky='top'>
+      <Container id='myNav'>
+        <Navbar.Brand>         
+        <a 
+          href="#header"
+          onClick={() => handlePageChange('Header')}
+          className={currentPage === 'Header' ? 'nav-link active' : 'nav-link'}
+        >
+        <img
+          id='footerPicture'
+          alt="Julian Franklin"
+          src={meFooter}
+        />
+        </a>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home" id='navLinks'>About Me</Nav.Link>
+            <Nav.Link href="#link" id='navLinks'>My Work</Nav.Link>
+            <Nav.Link href="#link" id='navLinks'>Contact</Nav.Link>
+            <Nav.Link href="#link" id='navLinks'>Resume</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar;
+export default MyNavbar;
