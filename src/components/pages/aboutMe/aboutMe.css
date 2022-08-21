@@ -1,8 +1,23 @@
 .aboutMe {
-    height: 500px;
+    height: auto;
     background-color: #D7E5F0 ;
 }
 #aboutMeSection {
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 3%;
+}
+.aboutMe h1 {
+    font-family: 'Homemade Apple', cursive;
+    color: #2D4B64;
+}
+.aboutMe p {
+    font-family: 'Raleway', sans-serif;
+    color: #2D4B64;
+    padding-left: 10px;
+}
+#myHeadshot {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
 }
