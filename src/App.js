@@ -4,7 +4,7 @@ import React from "react";
 import Header from "./components/pages/header/header";
 import MyNavbar from "./components/pages/navbar/navbar.js";
 import AboutMe from "./components/pages/aboutMe/aboutMe.js";
-import MyWork from "./components/pages/myWork.js";
+import MyWork from "./components/pages/myWork/myWork";
 import Resume from "./components/pages/resume";
 import Footer from "./components/pages/footer.js";
 
