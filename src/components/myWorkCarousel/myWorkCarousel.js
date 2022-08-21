@@ -11,46 +11,43 @@ function MyWorkCarousel() {
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     };
-  
+    
+    const projects = [
+      {
+        image: mistyLakeForest,
+        projectTitle: '360 Degrees',
+        description: 'Full Stack Web Application'
+      },
+      {
+        image: riverInMountains,
+        projectTitle: '360 Degrees #2',
+        description: 'Full Stack Web Application #2'
+      },
+      {
+        image: waterfallInCove,
+        projectTitle: '360 Degrees #3',
+        description: 'Full Stack Web Application #3'
+      },
+    ]
+
     return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={mistyLakeForest}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={riverInMountains}
-            alt="Second slide"
-          />
-  
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-        <img 
-          className="d-block w-100" 
-          src={waterfallInCove}
-          alt="My Work Picture 3"
-        />
-  
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
+        {projects.map(item => (
+                  <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={item.image}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>{item.projectTitle}</h3>
+                    <p>{item.description}</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+        ))
+
+}
       </Carousel>
     );
   }

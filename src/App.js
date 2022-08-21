@@ -1,5 +1,5 @@
 import "./App.css"
-import React from "react";
+import React, { useState } from "react";
 // First we import Greeting from the components folder
 import Header from "./components/pages/header/header";
 import MyNavbar from "./components/pages/navbar/navbar.js";
@@ -11,14 +11,30 @@ import Footer from "./components/pages/footer.js";
 
 // Our App component returns the Greeting component
 function App() {
+  const [currentPage, setCurrentPage] = useState('AboutMe');
+
+  const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
+    else if (currentPage === 'MyWork') {
+      return <MyWork />;
+    }
+    else if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    else if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+  
   return (
     <div>
-      <MyNavbar />
+      <MyNavbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <Header />
-      <AboutMe />
-      <MyWork />
-      <Contact />
-      <Resume />
+      {renderPage()}
       <Footer />
     </div>
   );
