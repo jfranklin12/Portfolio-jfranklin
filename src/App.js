@@ -5,6 +5,7 @@ import Header from "./components/pages/header/header";
 import MyNavbar from "./components/pages/navbar/navbar.js";
 import AboutMe from "./components/pages/aboutMe/aboutMe.js";
 import MyWork from "./components/pages/myWork/myWork";
+import Contact from "./components/pages/contact/contact";
 import Resume from "./components/pages/resume";
 import Footer from "./components/pages/footer.js";
 
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <AboutMe />
       <MyWork />
+      <Contact />
       <Resume />
       <Footer />
     </div>
