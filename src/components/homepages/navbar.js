@@ -1,46 +1,84 @@
 import '../../App.css';
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import meFooter from '../../images/meFooter.jpg';
 
 function MyNavbar({ currentPage, handlePageChange }) {
 
   return (
-    <Navbar className="myNavbar" expand="md" sticky='top'>
-      <Container id='myNav'>
-        <Navbar.Brand>
+    <nav className="navbar navbar-expand-lg bg-light" id="myNavbar">
+      <div className="container-fluid" id="myNav">
           <a
             href="#AboutMe"
-            onClick={() => handlePageChange('AboutMe')}
-            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+            onClick={() => handlePageChange("AboutMe")}
+            className="navbar-brand"
           >
-            <img
-              id='footerPicture'
-              alt="Julian Franklin"
-              src={meFooter}
-            />
+            <img id="footerPicture" alt="Julian Franklin" src={meFooter} />
           </a>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" id='navbarButton' />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#AboutMe"
-              onClick={() => handlePageChange('AboutMe')}
-              className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'} id='navLinks'>About Me</Nav.Link>
-            <Nav.Link href="#MyWork"
-              onClick={() => handlePageChange('MyWork')}
-              className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}
-              id='navLinks'>My Work</Nav.Link>
-            <Nav.Link href="#Contact" onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} id='navLinks'>Contact</Nav.Link>
-            <Nav.Link href="#link" onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} id='navLinks'>Resume</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        
+        <button
+          className="navbar-toggler"
+          id="navbarButton"
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+            <a
+              href="#AboutMe"
+              onClick={() => handlePageChange("AboutMe")}
+              className={
+                currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+              }
+              aria-current="page"
+              id="navLinks"
+            >
+              About Me
+            </a>
+            </li>
+            <li className="nav-item">
+            <a
+              href="#MyWork"
+              onClick={() => handlePageChange("MyWork")}
+              className={
+                currentPage === "MyWork" ? "nav-link active" : "nav-link"
+              }
+              aria-current="page"
+              id="navLinks"
+            >
+              My Work
+            </a>
+            </li>
+            <li className="nav-item">
+            <a
+              href="#Contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+              aria-current="page"
+              id="navLinks"
+            >
+              Contact
+            </a>
+            </li>
+            <li className="nav-item">
+            <a
+              href="#link"
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+              aria-current="page"
+              id="navLinks"
+            >
+              Resume
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
 

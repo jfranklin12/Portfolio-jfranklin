@@ -1,5 +1,5 @@
 /* Navbar */
-.myNavbar {
+/* #myNavbar {
     background-color: #2D4B64;
 }
 #myNav {
@@ -10,9 +10,12 @@
     font-weight: 600;
     color: #A4ACB4;
 }
-#navLinks:hover{
+.nav-link :active {
     color: white;
 }
+#navLinks:hover{
+    color: white;
+} */
 /* Header */
 .header {
     height: 80vh;
