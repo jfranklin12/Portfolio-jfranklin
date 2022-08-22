@@ -1,14 +1,16 @@
-import '../../App.css';
+import '../../../App.css';
+import "./resume.css"
 import React from 'react';
 
 function Resume() {
 
 
     return (
-      <div className="container">
+      <div className="resume">
+      <div className="container text-center">
         <h1 className="display-3">Resume</h1>  
       </div>
-      
+      </div>
     );
   }
   

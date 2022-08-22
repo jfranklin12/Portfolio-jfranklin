@@ -1,6 +1,5 @@
 import "../../App.css";
 import React from "react";
-import meFooter from "../../images/meFooter.jpg";
 
 function MyNavbar({ currentPage, handlePageChange }) {
   return (

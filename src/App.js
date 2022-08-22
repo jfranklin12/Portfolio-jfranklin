@@ -6,7 +6,7 @@ import MyNavbar from "./components/homepages/navbar.js";
 import AboutMe from "./components/pages/aboutMe/aboutMe.js";
 import MyWork from "./components/pages/myWork/myWork";
 import Contact from "./components/pages/contact/contact";
-import Resume from "./components/pages/resume";
+import Resume from "./components/pages/resume/resume";
 import Footer from "./components/homepages/footer.js";
 
 // Our App component returns the Greeting component

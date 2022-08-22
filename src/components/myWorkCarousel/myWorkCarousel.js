@@ -16,17 +16,45 @@ function MyWorkCarousel() {
       {
         image: mistyLakeForest,
         projectTitle: '360 Degrees',
-        description: 'Full Stack Web Application'
+        description: 'Blog for Reviewing your University Degree',
+        techs: 'JavaScript',
+        github: 'https://github.com/jfranklin12/360-Degrees'
+
       },
       {
         image: riverInMountains,
-        projectTitle: '360 Degrees #2',
-        description: 'Full Stack Web Application #2'
+        projectTitle: 'Touch Grass',
+        description: 'National Park Finder Application',
+        techs: 'JavaScript',
+        github: 'https://github.com/jfranklin12/touch-grass-app-national-park-finder'
       },
       {
         image: waterfallInCove,
-        projectTitle: '360 Degrees #3',
-        description: 'Full Stack Web Application #3'
+        projectTitle: 'Team Generator',
+        description: 'Generate an HTML for your Work Team',
+        techs: 'JavaScript',
+        github: 'https://github.com/jfranklin12/Julian-Franklin-Team-Profile-Generator'
+      },
+      {
+        image: waterfallInCove,
+        projectTitle: 'Work Day Scheduler',
+        description: 'Calendar for Scheduling your Work Day',
+        techs: 'JavaScript',
+        github: 'https://github.com/jfranklin12/Julian-Franklin-Team-Profile-Generator'
+      },
+      {
+        image: waterfallInCove,
+        projectTitle: 'Connect, Learn, Teach',
+        description: 'A Tech Blog',
+        techs: 'JavaScript',
+        github: 'https://github.com/jfranklin12/JFranklin-Connect-Learn-Teach'
+      },
+      {
+        image: waterfallInCove,
+        projectTitle: 'Social Network API Routers',
+        description: 'Backend Routes for a Social Network Application',
+        techs: 'JavaScript',
+        github: 'https://github.com/jfranklin12/Social-Network-API'
       },
     ]
 
@@ -41,7 +69,9 @@ function MyWorkCarousel() {
                   />
                   <Carousel.Caption>
                     <h3>{item.projectTitle}</h3>
-                    <p>{item.description}</p>
+                    <h6>{item.description}</h6>
+                    <p>{item.techs}</p>
+                    <a href={item.github} target="_blank">{item.projectTitle} Github</a>
                   </Carousel.Caption>
                 </Carousel.Item>
 
