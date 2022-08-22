@@ -1,21 +1,31 @@
-/* Navbar */
-/* #myNavbar {
+/* Navbar and footer*/
+#myNavbar, #footer {
     background-color: #2D4B64;
 }
 #myNav {
     margin-left: 3%;
 }
-#navLinks{
+#navLinks, #copyright, #footerName{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: #A4ACB4;
 }
-.nav-link :active {
-    color: white;
+#footerName{
+    font-family: 'Homemade Apple', cursive;
+    color: #A4ACB4;
 }
 #navLinks:hover{
     color: white;
-} */
+}
+#footerPicture {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 6px;
+}
+.footerLink {
+    border: 2px solid #A4ACB4;
+}
 /* Header */
 .header {
     height: 80vh;
@@ -25,11 +35,4 @@
     color: #2D4B64;
     padding-top: 275px;
     
-}
-/* Footer */
-#footerPicture {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    margin-right: 6px;
 }

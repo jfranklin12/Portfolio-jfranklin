@@ -5,7 +5,8 @@ import meFooter from '../../images/meFooter.jpg';
 function MyNavbar({ currentPage, handlePageChange }) {
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light" id="myNavbar">
+    <div id="myNavbar">
+    <nav className="navbar navbar-expand-lg sticky-top" >
       <div className="container-fluid" id="myNav">
           <a
             href="#AboutMe"
@@ -30,7 +31,6 @@ function MyNavbar({ currentPage, handlePageChange }) {
               className={
                 currentPage === "AboutMe" ? "nav-link active" : "nav-link"
               }
-              aria-current="page"
               id="navLinks"
             >
               About Me
@@ -43,7 +43,6 @@ function MyNavbar({ currentPage, handlePageChange }) {
               className={
                 currentPage === "MyWork" ? "nav-link active" : "nav-link"
               }
-              aria-current="page"
               id="navLinks"
             >
               My Work
@@ -56,7 +55,6 @@ function MyNavbar({ currentPage, handlePageChange }) {
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
-              aria-current="page"
               id="navLinks"
             >
               Contact
@@ -79,6 +77,7 @@ function MyNavbar({ currentPage, handlePageChange }) {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 
