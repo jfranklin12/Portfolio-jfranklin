@@ -15,8 +15,9 @@ const animation = keyframes`
 100% { opacity: 1 }
 `
 
-const Title = styled.p`
+const Title = styled.h1`
 diplay: inline-block;
+
 
 
 span {
@@ -25,6 +26,7 @@ span {
     animation-name: ${animation};
     animation-duration: 6s;
     animation-fill-mode: forwards;
+    font-size: 147%;
     
 }
 span:nth-child(1) {

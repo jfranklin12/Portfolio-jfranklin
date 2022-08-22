@@ -1,15 +1,13 @@
-import '../../../App.css';
-import '../navbar/navbar.css'
+import '../../App.css';
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import meFooter from '../../../images/meFooter.jpg'
+import meFooter from '../../images/meFooter.jpg';
 
 function MyNavbar({ currentPage, handlePageChange }) {
 
   return (
-    // Need help making navbar links referencing activity 24
     <Navbar className="myNavbar" expand="md" sticky='top'>
       <Container id='myNav'>
         <Navbar.Brand>

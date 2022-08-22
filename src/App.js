@@ -1,13 +1,13 @@
 import "./App.css"
 import React, { useState } from "react";
 // First we import Greeting from the components folder
-import Header from "./components/pages/header/header";
-import MyNavbar from "./components/pages/navbar/navbar.js";
+import Header from "./components/homepages/header";
+import MyNavbar from "./components/homepages/navbar.js";
 import AboutMe from "./components/pages/aboutMe/aboutMe.js";
 import MyWork from "./components/pages/myWork/myWork";
 import Contact from "./components/pages/contact/contact";
 import Resume from "./components/pages/resume";
-import Footer from "./components/pages/footer.js";
+import Footer from "./components/homepages/footer.js";
 
 // Our App component returns the Greeting component
 function App() {
