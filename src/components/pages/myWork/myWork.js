@@ -10,8 +10,10 @@ function MyWork() {
     <div className="myWork">
     <div className="container text-center">
       <h1 className="display-3">My Work</h1>
+      <div className="row justify-content-center">
       <MyWorkCarousel />
       </div>
+    </div>
     </div>
     
   );
