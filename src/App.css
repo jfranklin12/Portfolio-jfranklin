@@ -1,21 +1,35 @@
 /* Navbar and footer*/
 #myNavbar, #footer {
     background-color: #2D4B64;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 #myNav {
     margin-left: 3%;
 }
+.navbar-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #navLinks, #copyright, #footerName{
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: #A4ACB4;
+
+}
+#navLinks:hover, #active{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
 }
 #footerName{
     font-family: 'Homemade Apple', cursive;
     color: #A4ACB4;
-}
-#navLinks:hover{
-    color: white;
 }
 #footerPicture {
     border-radius: 50%;
