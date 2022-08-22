@@ -15,7 +15,7 @@ const animation = keyframes`
 100% { opacity: 1 }
 `
 
-const Title = styled.h1`
+const Title = styled.span`
 diplay: inline-block;
 
 
