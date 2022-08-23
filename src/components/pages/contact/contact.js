@@ -111,10 +111,12 @@ function Contact() {
               </div>
             </div>
           </div>
+          <br></br>
           <button type="submit" className="btn btn-primary" onClick={handleFormSubmit}>
             SUBMIT
           </button>
         </form>
+        <br></br>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
