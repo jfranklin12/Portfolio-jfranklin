@@ -1,12 +1,12 @@
 import "../../App.css";
 import React, { Component } from "react";
 import NameAnimation from "../nameAnimation/nameAnimation";
-import background1 from "../../images/background1.jpg";
+import background from "../../images/background.jpg";
 
 class Header extends Component {
   render() {
     const myStyle = {
-      backgroundImage: `url(${background1})`,
+      backgroundImage: `url(${background})`,
       backgroundPosition: "center",
       backgroundRepeat: "repeat",
     };

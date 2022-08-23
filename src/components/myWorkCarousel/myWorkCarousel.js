@@ -2,8 +2,11 @@ import "../../App.css";
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import degrees from "../../images/degrees.jpg";
-import riverInMountains from "../../images/riverInMountains.jpg";
-import waterfallInCove from "../../images/waterfallInCove.jpg";
+import waterfall from "../../images/waterfall.jpg";
+import team from "../../images/team.jpg";
+import work from "../../images/work.jpg";
+import blog from "../../images/blog.jpg";
+import social from "../../images/social.jpg";
 import { Github } from 'react-bootstrap-icons';
 
 function MyWorkCarousel() {
@@ -24,7 +27,7 @@ function MyWorkCarousel() {
     },
     {
       id: 2,
-      image: riverInMountains,
+      image: waterfall,
       projectTitle: "Touch Grass",
       description: "National Park Finder ",
       github:
@@ -33,7 +36,7 @@ function MyWorkCarousel() {
     },
     {
       id: 3,
-      image: waterfallInCove,
+      image: team,
       projectTitle: "Team Generator",
       description: "Generate an HTML for your Work Team",
       github:
@@ -42,7 +45,7 @@ function MyWorkCarousel() {
     },
     {
       id: 4,
-      image: waterfallInCove,
+      image: work,
       projectTitle: "Work Day Scheduler",
       description: "Calendar for Scheduling your Work Day",
       github:
@@ -51,7 +54,7 @@ function MyWorkCarousel() {
     },
     {
       id: 5,
-      image: waterfallInCove,
+      image: blog,
       projectTitle: "Connect, Learn, Teach",
       description: "A Tech Blog",
       github: "https://github.com/jfranklin12/JFranklin-Connect-Learn-Teach",
@@ -59,7 +62,7 @@ function MyWorkCarousel() {
     },
     {
       id: 6,
-      image: waterfallInCove,
+      image: social,
       projectTitle: "Social Network API",
       description: "Backend Routes for a Social Network Application",
       github: "https://github.com/jfranklin12/Social-Network-API",

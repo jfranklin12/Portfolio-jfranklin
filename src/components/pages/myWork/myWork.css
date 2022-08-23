@@ -27,7 +27,7 @@
 }
 #projGit:hover , #projTitle:hover {
   text-decoration: none;
-  color: #4d6e85;
+  color: white;
 }
 #carouselImage {
   filter: opacity(40%);
