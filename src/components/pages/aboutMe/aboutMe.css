@@ -9,16 +9,35 @@
 .aboutMe h1 {
     font-family: 'Homemade Apple', cursive;
     color: #c0c6cb;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 12px;
 }
 .aboutMe p {
     font-family: 'Raleway', sans-serif;
     color: #1d3141;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 25px;
+    font-size: 20px;
 }
 #myHeadshot {
     border-radius: 50%;
     height: 250px;
     width: 250px;
     padding: 10px;
+}
+@media (max-width: 576px) {
+    .aboutMe h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .aboutMe p {
+        font-size: 16px;
+    }
+    #myHeadshot {
+        border-radius: 50%;
+        height: 175px;
+        width: 175px;
+        padding: 10px;
+    }
 }

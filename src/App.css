@@ -19,7 +19,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #A4ACB4;
-    font-size: 25px;
+    font-size: 22px;
 
 }
 #copyright, #footerName{
@@ -34,7 +34,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
 }
 #footerName{
     font-family: 'Homemade Apple', cursive;
@@ -58,7 +58,7 @@
     color: #2D4B64;
     padding-top: 275px;
     font-weight: 800;
-    
+    font-size: 42px;
 }
 @media (max-width: 576px) {
     .header {
