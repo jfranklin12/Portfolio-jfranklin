@@ -1,11 +1,26 @@
 .contact {
     height: auto;
     background-color: #567b95;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .contact h1 {
     font-family: 'Homemade Apple', cursive;
     color: #c0c6cb;
-    padding-bottom: 2%;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+@media (max-width: 576px) {
+    .myWork h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .myWork {
+      padding-top: 15px;
+      padding-bottom: 20px;
+    }
 }
