@@ -9,28 +9,27 @@
     color: #c0c6cb;
     font-weight: 700;
     font-size: 50px;
-    padding-top: 12px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 .contact h2 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 33px;
     color: #02213a;
 }
 .contact h3 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     color: #02213a;
     padding-bottom: 10px;
 }
 .contact label {
-    text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     color: #02213a;
-    font-size: 18px;
+    font-size: 22px;
 }
 .contact button {
     font-family: 'Raleway', sans-serif;
@@ -44,45 +43,23 @@
     border: 2px solid #02213a;
 }
 @media (max-width: 576px) {
+    .contact {
+        padding-top: 15px;
+        padding-bottom: 20px;
+      }
     .contact h1 {
         font-weight: 600;
         font-size: 35px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .contact {
-      padding-top: 15px;
-      padding-bottom: 20px;
-    }
     .contact h2 {
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 700;
         font-size: 23px;
-        color: #02213a;
     }
     .contact h3 {
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 600;
         font-size: 20px;
-        color: #02213a;
-        padding-bottom: 10px;
     }
     .contact label {
-        text-decoration: none;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 500;
-        color: #02213a;
         font-size: 18px;
-    }
-    .contact button {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 600;
-        background-color: #02213a;
-        border: 2px solid #02213a;
-    }
-    .contact button:hover {
-        background-color: white;
-        color: #02213a;
-        border: 2px solid #02213a;
     }
 }
