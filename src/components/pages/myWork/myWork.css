@@ -1,11 +1,39 @@
 .myWork {
-    height: auto;
-    background-color: #567b95;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  height: auto;
+  background-color: #567b95;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .myWork h1 {
-    font-family: 'Homemade Apple', cursive;
-    color: #c0c6cb;
-    padding-bottom: 2%;
+  font-family: "Homemade Apple", cursive;
+  color: #c0c6cb;
+  padding-bottom: 4%;
+}
+#projTitle {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+#carouselImage {
+  filter: opacity(40%);
+}
+
+@media (max-width: 576px) {
+  #projTitle, #projGit {
+    text-decoration: none;
+    font-family: "Yeseva One", cursive;
+    font-weight: 900;
+    font-size: 30px;
+    color: #02213a;
+    
+  }
+  #projDes {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #02213a;
+  }
+  #projGit:hover , #projTitle:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
