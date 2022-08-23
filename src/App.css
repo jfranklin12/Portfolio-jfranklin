@@ -14,7 +14,15 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-#navLinks, #copyright, #footerName{
+#navLinks{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #A4ACB4;
+    font-size: 25px;
+
+}
+#copyright, #footerName{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -24,8 +32,9 @@
 #navLinks:hover, #active{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
+    font-size: 25px;
 }
 #footerName{
     font-family: 'Homemade Apple', cursive;
@@ -48,5 +57,19 @@
     font-family: 'Homemade Apple', cursive;
     color: #2D4B64;
     padding-top: 275px;
+    font-weight: 800;
     
+}
+@media (max-width: 576px) {
+    .header {
+        height: 70vh;
+    }
+    #myName {
+        font-size: 25px;
+        padding-top: 250px;
+    }
+    #navLinks, #active {
+        font-weight: 600;
+        font-size: 15px;
+    }
 }
