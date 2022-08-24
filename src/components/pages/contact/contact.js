@@ -43,19 +43,22 @@ function Contact() {
     setMessage("");
   };
 
-  const testInput = () => {
+  const emptyInput = () => {
     if (!name) {
-      setErrorMessage("Please enter your name");
+      setErrorMessage("Please fill in your name.");
       return;
     }
     else if (!email) {
-      setErrorMessage("Please enter your email");
-      return;
+      setErrorMessage("Please fill in your email.")
     }
+    else if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email");
+      return;
+  }
     else if (!message) {
-      setErrorMessage("Please enter a message");
-      return;
-    }
+    setErrorMessage("Please fill in a message.");
+    return;
+}
   }
 
   return (
@@ -76,10 +79,10 @@ function Contact() {
                   value={name}
                   name="name"
                   onChange={handleInputChange}
-                  onBlur={testInput}
+                  onBlur={emptyInput}
                   type="text"
                   className="form-control"
-                  id="inputName"
+                  id="input"
                 ></input>
               </div>
               <div className="mb-3">
@@ -90,9 +93,10 @@ function Contact() {
                   value={email}
                   name="email"
                   onChange={handleInputChange}
+                  onBlur={emptyInput}
                   type="text"
                   className="form-control"
-                  id="inputEmail"
+                  id="input"
                 ></input>
               </div>
               <div class="mb-3">
@@ -103,9 +107,10 @@ function Contact() {
                   value={message}
                   name="message"
                   onChange={handleInputChange}
+                  onBlur={emptyInput}
                   type="text"
                   className="form-control"
-                  id="inputMessage"
+                  id="input"
                   rows="3"
                 ></textarea>
               </div>

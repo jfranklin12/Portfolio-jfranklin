@@ -1,11 +1,42 @@
 .resume {
     height: auto;
     background-color: #567b95;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .resume h1 {
     font-family: 'Homemade Apple', cursive;
     color: #c0c6cb;
-    padding-bottom: 2%;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#resume-button, #resume-button:focus, #resume-button:active {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #02213a;
+    border: 2px solid #02213a;
+    box-shadow: none !important;
+}
+#resume-button:hover {
+    background-color: white;
+    color: #02213a;
+    border: 2px solid #02213a;
+    box-shadow: 0px 8px 15px #A4ACB4 !important;
+    transform: translateY(-7px);
+}
+
+@media (max-width: 576px) {
+    .resume {
+        padding-top: 15px;
+        padding-bottom: 20px;
+      }
+    .resume h1 {
+        font-weight: 600;
+        font-size: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
