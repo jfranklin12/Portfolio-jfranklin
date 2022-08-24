@@ -72,8 +72,8 @@ function MyWorkCarousel() {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} id="carousel">
-      {projects.map((item) => (
-        <Carousel.Item>
+      {projects.map((item, index) => (
+        <Carousel.Item key={item.id}>
           <img
             className="d-block w-100"
             src={item.image}

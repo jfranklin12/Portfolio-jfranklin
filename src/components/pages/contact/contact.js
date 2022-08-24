@@ -72,7 +72,7 @@ function Contact() {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8">
               <div className="mb-3">
-                <label for="name" className="form-label">
+                <label className="form-label">
                   Name
                 </label>
                 <input
@@ -86,7 +86,7 @@ function Contact() {
                 ></input>
               </div>
               <div className="mb-3">
-                <label for="email" className="form-label">
+                <label className="form-label">
                   Email
                 </label>
                 <input
@@ -99,8 +99,8 @@ function Contact() {
                   id="input"
                 ></input>
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">
+              <div className="mb-3">
+                <label className="form-label">
                   Message
                 </label>
                 <textarea
