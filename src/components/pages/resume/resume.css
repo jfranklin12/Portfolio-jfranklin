@@ -17,15 +17,21 @@
     font-weight: 600;
     color: white;
     background-color: #02213a;
-    border: 2px solid #02213a;
+    border: none !important;
     box-shadow: none !important;
 }
 #resume-button:hover {
     background-color: white;
     color: #02213a;
-    border: 2px solid #02213a;
     box-shadow: 0px 8px 15px #A4ACB4 !important;
     transform: translateY(-7px);
+}
+#link {
+    text-decoration: none;
+    color: white;
+}
+#link:hover {
+    color: #02213a;
 }
 
 @media (max-width: 576px) {
