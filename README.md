@@ -7,7 +7,7 @@
   
   This is my portfolio. Enjoy!
 
-  [J.A.T.E Website](https://jfranklin-jate.herokuapp.com/)
+  [J.A.T.E Website](https://jfranklin-portfolio.herokuapp.com/)
 
   ## Table of Content
   - [Installation](#installation)
