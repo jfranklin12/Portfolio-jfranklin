@@ -1,10 +1,19 @@
 /* Navbar and footer*/
-#myNavbar, #footer {
+#myNavbar {
     background-color: #2D4B64;
     height:auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+#footer {
+    background-color: #2D4B64;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
     align-items: center;
 }
 #myNav {
@@ -22,11 +31,12 @@
     font-size: 22px;
 
 }
-#copyright, #footerName{
+#copyright{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: #A4ACB4;
+    padding: auto;
 
 }
 #navLinks:hover, #active{
@@ -39,6 +49,8 @@
 #footerName{
     font-family: 'Homemade Apple', cursive;
     color: #A4ACB4;
+    font-size: 22px;
+    font-weight: 500;
 }
 #footerPicture {
     border-radius: 50%;
@@ -46,8 +58,14 @@
     width: 50px;
     margin-right: 6px;
 }
-.footerLink {
-    border: 2px solid #A4ACB4;
+#footerIcon {
+    color: #A4ACB4
+}
+#footerIcon:hover {
+    color: white;
+    box-shadow: 0px 8px 15px #A4ACB4 !important;
+    transform: translateY(-7px);
+    border-radius: 50% 100%;
 }
 /* Header */
 .header {
