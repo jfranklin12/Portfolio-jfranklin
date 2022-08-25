@@ -7,7 +7,7 @@
   
   This is my portfolio. Enjoy!
 
-  [My Portfolio](https://aqueous-oasis-38484.herokuapp.com/)
+  [My Portfolio](https://jfranklin12.github.io/Portfolio-jfranklin/)
 
   ## Table of Content
   - [Installation](#installation)
