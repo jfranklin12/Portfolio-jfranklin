@@ -20,10 +20,10 @@ function Footer() {
           </div>
           {/* icons */}
           <div className="col align-self-center">
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/julian-franklin/" target="_blank">
               <i className="fa-brands fa-linkedin fa-2xl p-3" id="footerIcon"></i>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://github.com/jfranklin12" target="_blank">
               <i className="fa-brands fa-github fa-2xl p-3" id="footerIcon"></i>
             </a>
             <a href="mailto:j.franks725@gmail.com" target="_blank">
