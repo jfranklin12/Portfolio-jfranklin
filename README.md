@@ -8,6 +8,9 @@
 
   [My Portfolio](https://jfranklin12.github.io/Portfolio-jfranklin/)
 
+  ![Homepage](./src/images/homepage.jpg)
+  ![About Me Section](./src/images/aboutme.jpg)
+
   ## Table of Content
   - [Installation](#installation)
   - [Usage](#usage)
