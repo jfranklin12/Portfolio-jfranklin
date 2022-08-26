@@ -35,7 +35,7 @@ function Contact() {
       setErrorMessage("Please enter a valid email");
       return;
     } else {
-      setErrorMessage(`Thank you ${name}! I'll be in touch soon!`);
+      setErrorMessage(`Thank you, ${name}! I'll be in touch soon!`);
     }
 
     setName("");
