@@ -7,6 +7,7 @@ import team from "../../images/team.jpg";
 import work from "../../images/work.jpg";
 import blog from "../../images/blog.jpg";
 import social from "../../images/social.jpg";
+import handshake from "../../images/handshake.jpg";
 import { Github } from 'react-bootstrap-icons';
 
 function MyWorkCarousel() {
@@ -36,6 +37,15 @@ function MyWorkCarousel() {
     },
     {
       id: 3,
+      image: handshake,
+      projectTitle: "DevBids",
+      description: "Create and Find Jobs for Coding",
+      github:
+        "https://github.com/jfranklin12/devbids-contractor-Gp4/tree/main/devbids",
+      website: "https://devbids-gp4.herokuapp.com/"
+    },
+    {
+      id: 4,
       image: team,
       projectTitle: "Team Generator",
       description: "Generate an HTML for your Work Team",
@@ -44,7 +54,7 @@ function MyWorkCarousel() {
       website: "https://drive.google.com/file/d/1qH84G3UVlhsRqG_EC-cIV7gSHI87lK4B/view?usp=sharing"
     },
     {
-      id: 4,
+      id: 5,
       image: work,
       projectTitle: "Work Day Scheduler",
       description: "Calendar for Scheduling your Work Day",
@@ -53,7 +63,7 @@ function MyWorkCarousel() {
       website: "https://jfranklin12.github.io/Julian-Franklin-Work-Day-Scheduler/"
     },
     {
-      id: 5,
+      id: 6,
       image: blog,
       projectTitle: "Connect, Learn, Teach",
       description: "A Tech Blog",
@@ -61,7 +71,7 @@ function MyWorkCarousel() {
       website: "https://julian-franklin-tech-blog.herokuapp.com/"
     },
     {
-      id: 6,
+      id: 7,
       image: social,
       projectTitle: "Social Network API",
       description: "Backend Routes for a Social Network Application",
