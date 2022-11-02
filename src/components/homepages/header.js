@@ -16,7 +16,7 @@ class Header extends Component {
           <h1 id="myName">
             <NameAnimation />
           </h1>
-          <h2 id="title">
+          <h2 id="caption">
             Full Stack Web Developer
           </h2>
 		  </div>
