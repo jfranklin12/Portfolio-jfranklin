@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-jfranklin/static/css/main.eec7666d.css",
-    "main.js": "/Portfolio-jfranklin/static/js/main.b68f78b3.js",
+    "main.css": "/Portfolio-jfranklin/static/css/main.7652657b.css",
+    "main.js": "/Portfolio-jfranklin/static/js/main.58134e79.js",
     "static/media/waterfall.jpg": "/Portfolio-jfranklin/static/media/waterfall.434a094a19c0cfe2d52c.jpg",
     "static/media/handshake.jpg": "/Portfolio-jfranklin/static/media/handshake.cbfce336455461a6c9be.jpg",
     "static/media/blog.jpg": "/Portfolio-jfranklin/static/media/blog.87344812a21e0cb53842.jpg",
@@ -17,11 +17,11 @@
     "static/media/myHeadshot.jpeg": "/Portfolio-jfranklin/static/media/myHeadshot.0c6bba5c824ee4813c04.jpeg",
     "static/media/Julian-Franklin-Resume-2022.pdf": "/Portfolio-jfranklin/static/media/Julian-Franklin-Resume-2022.17fb7c80a7727659df54.pdf",
     "index.html": "/Portfolio-jfranklin/index.html",
-    "main.eec7666d.css.map": "/Portfolio-jfranklin/static/css/main.eec7666d.css.map",
-    "main.b68f78b3.js.map": "/Portfolio-jfranklin/static/js/main.b68f78b3.js.map"
+    "main.7652657b.css.map": "/Portfolio-jfranklin/static/css/main.7652657b.css.map",
+    "main.58134e79.js.map": "/Portfolio-jfranklin/static/js/main.58134e79.js.map"
   },
   "entrypoints": [
-    "static/css/main.eec7666d.css",
-    "static/js/main.b68f78b3.js"
+    "static/css/main.7652657b.css",
+    "static/js/main.58134e79.js"
   ]
 }
