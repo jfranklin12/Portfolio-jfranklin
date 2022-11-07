@@ -38,6 +38,7 @@
     font-size: 22px;
     border: 2px solid #02213a;
     box-shadow: 5px solid #A4ACB4;
+    text-align: center;
 }
 #input:focus {
     box-shadow: 0 0 0 0.25rem rgba(2, 33, 58, 0.25)

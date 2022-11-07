@@ -66,7 +66,7 @@ function Contact() {
       <div className="container text-center">
         <h1 className="display-3">Contact Me!</h1>
 
-        <form className="form">
+        <form className="form" action="https://formsubmit.co/j.franks725@gmail.com" method="POST">
           <h2>Let's connect!</h2>
           <h3>Send me a message, and I'll reach out to you!</h3>
           <div className="row justify-content-center">
@@ -94,7 +94,7 @@ function Contact() {
                   name="email"
                   onChange={handleInputChange}
                   onBlur={emptyInput}
-                  type="text"
+                  type="email"
                   className="form-control"
                   id="input"
                 ></input>
