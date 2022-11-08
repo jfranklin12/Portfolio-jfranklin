@@ -66,7 +66,7 @@ function Contact() {
       <div className="container text-center">
         <h1 className="display-3">Contact Me!</h1>
 
-        <form className="form" action="https://formsubmit.co/j.franks725@gmail.com" method="POST">
+        <form className="form" action="https://formsubmit.co/j.franks725@gmail.com" method="POST" target="_blank">
           <h2>Let's connect!</h2>
           <h3>Send me a message, and I'll reach out to you!</h3>
           <div className="row justify-content-center">
@@ -83,6 +83,7 @@ function Contact() {
                   type="text"
                   className="form-control"
                   id="input"
+                  required
                 ></input>
               </div>
               <div className="mb-3">
@@ -97,6 +98,7 @@ function Contact() {
                   type="email"
                   className="form-control"
                   id="input"
+                  required
                 ></input>
               </div>
               <div className="mb-3">
@@ -112,6 +114,7 @@ function Contact() {
                   className="form-control"
                   id="input"
                   rows="3"
+                  required
                 ></textarea>
               </div>
             </div>
