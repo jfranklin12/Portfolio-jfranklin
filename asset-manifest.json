@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-jfranklin/static/css/main.7652657b.css",
-    "main.js": "/Portfolio-jfranklin/static/js/main.58134e79.js",
+    "main.js": "/Portfolio-jfranklin/static/js/main.582c9a02.js",
     "static/media/waterfall.jpg": "/Portfolio-jfranklin/static/media/waterfall.434a094a19c0cfe2d52c.jpg",
     "static/media/handshake.jpg": "/Portfolio-jfranklin/static/media/handshake.cbfce336455461a6c9be.jpg",
     "static/media/blog.jpg": "/Portfolio-jfranklin/static/media/blog.87344812a21e0cb53842.jpg",
@@ -18,10 +18,10 @@
     "static/media/Julian-Franklin-Resume-2022.pdf": "/Portfolio-jfranklin/static/media/Julian-Franklin-Resume-2022.17fb7c80a7727659df54.pdf",
     "index.html": "/Portfolio-jfranklin/index.html",
     "main.7652657b.css.map": "/Portfolio-jfranklin/static/css/main.7652657b.css.map",
-    "main.58134e79.js.map": "/Portfolio-jfranklin/static/js/main.58134e79.js.map"
+    "main.582c9a02.js.map": "/Portfolio-jfranklin/static/js/main.582c9a02.js.map"
   },
   "entrypoints": [
     "static/css/main.7652657b.css",
-    "static/js/main.58134e79.js"
+    "static/js/main.582c9a02.js"
   ]
 }
